@@ -1,0 +1,144 @@
+* {
+    font-size: 16px;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+.container {
+    width: 50vw;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading1 {
+    font-size: 45px;
+    font-weight: 900;
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.heading2 {
+    font-size: 32px;
+    font-weight: 600;
+
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.heading3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.heading3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+div.reach-me {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.reach-me>div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.reach-me>div:not(:first-child) {
+    border-left: 2px solid lightgrey;
+}
+
+.reach-me>div>img {
+    height: 40px;
+    width: 40px;
+    filter: hue-rotate(190deg) sepia(100%) saturate(900%);
+}
+
+.main-section {
+    padding: 1rem 3rem;
+}
+
+.item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .7rem;
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.blue {
+    color: #0062cc;
+}
+
+
+@keyframes example {
+    0% {
+        background-color: #3931af;
+        left: 0px;
+    }
+
+    50% {
+        background-color: #00c6ff;
+        left: calc(100% - 210px);
+    }
+
+    100% {
+        background-color: #3931af;
+        left: 0px;
+    }
+}
+
+/* #css-animation {
+    animation: animated_div 5s 1;
+    -moz-animation: animated_div 5s 1;
+    -webkit-animation: animated_div 5s 1;
+    -o-animation: animated_div 5s 1;
+    -webkit-border-radius: 5px;
+} */
+#css-animation {
+    border-radius: 5px;
+    width: 120px;
+    position: relative;
+    background-color: #3931af;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    align-items: center;
+}
+
+#css-animation:hover {
+    background-color: red !important;
+}
