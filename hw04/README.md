@@ -1,3 +1,6 @@
+# How to run
+Run `npm install` to install the needed dependencies then run `npm run dev`.
+
 # Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
