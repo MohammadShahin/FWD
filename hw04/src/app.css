@@ -1,0 +1,50 @@
+* {
+  font-size: 16px;
+}
+
+body {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+
+
+.heading1 {
+  font-size: 45px;
+  font-weight: 900;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading2 {
+  font-size: 32px;
+  font-weight: 600;
+
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.heading3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.blue {
+  color: #0062cc;
+}
+
+.main-section {
+  padding: 1rem 3rem;
+}
